@@ -28,9 +28,9 @@ module.exports.handleEvent = async ({ event, api, Threads }) => {
     if (body === i.toUpperCase() | body === i | str === body) {
 const prefix = threadSetting.PREFIX || global.config.PREFIX;
       if (data.PREFIX == null) {
-        return out(`╭───────⭓\n│ ✦ Group Prefix: ${prefix}\n│ ✦ System prefix : ${global.config.PREFIX}\n│ ✦ Use ${prefix}help to continue ✓\n╰─────────────⭓`)
+        return out(`🛸 Group Prefix: ${prefix}\n🔮 System prefix : ${global.config.PREFIX}\n📜 Use ${prefix}help to continue.`)
       }
-      else return out(`╭───────⭓\n│ ✦ Group Prefix: ${data.PREFIX}\n│ ✦ System prefix : ${global.config.PREFIX}\n│ ✦ Use ${prefix}help to continue ✓\n╰─────────────⭓`)
+      else return out(`🛸 Group Prefix: ${data.PREFIX}\n🔮 System prefix : ${global.config.PREFIX}\n📜 Use ${prefix}help to continue.`)
     }
 
   });
