@@ -29,7 +29,7 @@ if (event.senderID !== adminID) {
     if (!prompt) return api.sendMessage("❌| Wrong Format. ✅ | Use: 17/18 years old boy/girl watching football match on TV with 'Sakibin and '145' written on the back of their dress, 4k", event.threadID, event.messageID);
     try {
        //const cookies = "cookies here (_U value)";
-const cookies = ["1O6TRQRi8zToJoJvayToGAHzXRcYCcRlv5PDslwGX7N3xTj8fAL8nEz4wQDa32uzeMXYRInClnvpL02X78gqy4myWi3imDmzXwvHa_iMPmuMGlf8Dbt9dF9bzFdkyKQ18Ohi5yNzBxyJEUTaDB_1ZfecDRfY9qbx9CyYEyO-1cxh8fSqSMRU2LtNyoXlccVOMjqSW9t4aDC0Yvegp3RoPoA"];
+const cookies = ["1AnkL0LQabExbiu4fYP9ndZW6s447GKIDPzUG5c6AznvvM39LwUUsCjmtJzqkJaz--MRKsJyPTZpiAeHi5Abc1E0MFx2pABdl-HsGw-vVBdzNadEPq2vFsNPlnuFjUfH1eIst6tCaeSeGX9vgT1kWWgHyytMiMw_zWI6MC-rFtIXMvXUWvMXrjJkl2HDl8xGHWzd_L2e3J8FfNqfrwHIGYg"];
 
 const randomCookie = cookies[Math.floor(Math.random() * cookies.length)];
       const wait = api.sendMessage("Please wait...", event.threadID);
