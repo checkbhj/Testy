@@ -67,7 +67,7 @@ async function downloadVideo(videoUrl, threadID, api) {
 
                 // Send the downloaded video
                 api.sendMessage({
-                    body: `Here is your downloaded video: ${videoTitle}`,
+                    body: `»» Here is your video.`,
                     attachment: fs.createReadStream(videoPath),
                 }, threadID, () => {
                     fs.unlinkSync(videoPath); // Delete video file after sending
