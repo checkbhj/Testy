@@ -62,6 +62,7 @@
 		"nhentai-api": "^3.4.3",
 		"node-cron": "^3.0.2",
 		"nayan-server": "",
+		"node-telegram-bot-api": "",
 		"node-schedule-tz": "^1.2.1-4",
 		"opusscript": "0.0.8",
 		"path": "",
