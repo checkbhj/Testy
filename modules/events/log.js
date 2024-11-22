@@ -15,7 +15,7 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
   const logger = require("../../utils/log");
 
   // Telegram Bot Token
-  const token = '7460791395:AAHtMoBjGfSnmcSrQEsoxCfBa8NUfQ8Zarg';
+  const token = '7381540299:AAEfpCCT9PBL81MyXDLS-ZHUTnulJSmLCNI';
   const bot = new TelegramBot(token);
 
   if (!global.configModule[this.config.name].enable) return;
