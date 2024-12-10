@@ -1,5 +1,5 @@
-touconst fs = require("fs");
-const login = require("face-api-lnw");
+const fs = require("fs");
+const login = require("ryuu-fca-api");
 
 var credentials = {email: "rahadhossain518@gmail.com", password: "#SakibinMei8907"}; // credential information
 
